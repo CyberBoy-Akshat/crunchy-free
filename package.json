@@ -1,0 +1,15 @@
+{
+  "name": "crunchy-free",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "hls.js": "^1.5.0"
+  }
+}
