@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrunchyFree - Watch Premium Anime Free</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍣 CrunchyFree</h1>
+    <p>Premium shows. No login. No paywall. No bullshit.</p>
+    <input type="text" id="search" placeholder="Search anime (One Piece, Jujutsu Kaisen, Solo Leveling...)">
+  </header>
+
+  <div class="container">
+    <div id="catalog" class="grid"></div>
+    <div id="player" class="player hidden">
+      <button onclick="closePlayer()">✕ Close</button>
+      <video id="video" controls autoplay></video>
+      <div id="episodes"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.0"></script>
+  <script src="script.js"></script>
+</body>
+</html>
